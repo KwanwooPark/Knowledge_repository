@@ -5,5 +5,8 @@ git remote -v
 git checkout -b master  
 git push -u origin master  
 git push origin master  
+git config --unset credential.helper  
+git config credential.helper store  
+
 
 
