@@ -1,15 +1,9 @@
-## Term
-* **Long Tail Distribution**  
-= Class imabalance problem  
-
-
-## Loss
-* **Focal Loss**  
+### Focal Loss  
 loss에 predict probability 기반 weight.  
 easy sample 영향 낮추고 hard sample 고려하도록  
 https://arxiv.org/pdf/1708.02002.pdf
 
-* **Class Balanced Loss**  
+###* **Class Balanced Loss**  
 데이터 간의 유의미한 정보가 중복, 이를 고려하여 class 별 유의미한 양의 역수를 weight로 사용.  
 Effective Number(전체 양(N) 대비 몇장(n)을 뽑았을 때 유효한 장 수의 기대치)의 역수를 weight로 사용.  
 각 클래스별 Effective Number는 클래스 set이 가질 수 있는 유효한 정보량이며 이는 샘플 수에 해당.  

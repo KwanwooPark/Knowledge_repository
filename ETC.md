@@ -7,6 +7,6 @@ _"Range Loss for Deep Face Recognition with Long-tail", ICCV 2017._
 -------------------------------------------------------
 
 ### Classficiation Measure
-Confusion Matrix  
+![ConfusionMatrix](./image/ConfusionMatrix.png)  
 
 -------------------------------------------------------
