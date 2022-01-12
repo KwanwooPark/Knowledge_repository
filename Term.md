@@ -1,3 +1,3 @@
-#### Long Tail Distribution
+### Long Tail Distribution
 = Class imabalance problem  
 
