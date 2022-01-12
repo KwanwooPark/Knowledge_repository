@@ -1,14 +1,13 @@
-### Focal Loss  
+## Focal Loss  
 ![FocalLoss](./images/FocalLoss.png)  
 loss에 predict probability 기반 weight.  
 easy sample 영향 낮추고 hard sample 고려하도록  
 > "Focal Loss for Dense Object Detection," ICCV 2017.  
 
 -------------------------------------------------------
+<br/>
 
-
-
-### Class Balanced Loss
+## Class Balanced Loss
 ![ClassBalancedLoss](./images/ClassBalancedLoss.png)  
 데이터 간의 유의미한 정보가 중복, 이를 고려하여 class 별 유의미한 양의 역수를 weight로 사용.  
 Effective Number(전체 양(N) 대비 몇장(n)을 뽑았을 때 유효한 장 수의 기대치)의 역수를 weight로 사용.  
@@ -17,10 +16,10 @@ Effective Number(전체 양(N) 대비 몇장(n)을 뽑았을 때 유효한 장 �
 > "Class-Balanced Loss Based on Effective Number of Samples," CVPR 2019.  
 
 -------------------------------------------------------
+<br/>
 
-
-
-### Seesaw Loss
+## Seesaw Loss
+![SeesawLoss](./images/SeesawLoss.png)  
 long tail (class imbalance) 문제 해결 방안, loss에 2가지 factor 적용.  
 Mitigation Factor: instance number of classs의 비율 만큼 weight 적용.  
 Compensation Factor: 많이 틀린 부분에 대해서 weight 적용.  
@@ -28,3 +27,4 @@ Compensation Factor: 많이 틀린 부분에 대해서 weight 적용.
 > "Seesaw Loss for Long-Tailed Instance Segmentation," CVPR 2021.  
 
 -------------------------------------------------------
+<br/>
