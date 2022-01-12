@@ -6,6 +6,8 @@ easy sample 영향 낮추고 hard sample 고려하도록
 
 -------------------------------------------------------
 
+
+
 ### Class Balanced Loss
 ![ClassBalancedLoss](./images/ClassBalancedLoss.png)  
 데이터 간의 유의미한 정보가 중복, 이를 고려하여 class 별 유의미한 양의 역수를 weight로 사용.  
@@ -15,6 +17,8 @@ Effective Number(전체 양(N) 대비 몇장(n)을 뽑았을 때 유효한 장 �
 > "Class-Balanced Loss Based on Effective Number of Samples," CVPR 2019.  
 
 -------------------------------------------------------
+
+
 
 ### Seesaw Loss
 long tail (class imbalance) 문제 해결 방안, loss에 2가지 factor 적용.  
