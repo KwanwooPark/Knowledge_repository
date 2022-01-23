@@ -20,9 +20,10 @@ So, This is written so that it is easy for me to see like scribbles.
 * **RCNN, FastRCNN, FasterRCNN**
 * **CasecadeRCNN**
 * **SSD**
+* **Swin Transformer**
 * *Centernet*
 * *DETR*
-* *Swin Transformer*
+
 
 -------------------------------------------------------
 <br/>

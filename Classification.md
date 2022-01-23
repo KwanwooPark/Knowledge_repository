@@ -9,7 +9,7 @@
 
 
 * *Block 보면, MLP로 Conv와 같이 패치 내 feature 추정이 가능 MHA로 타 패치 정보 전달(비교, 가중, 등) 가능*  
-* *그러면, 뭔가 CNN에서 global receptive 및 input-dependent한 weight 생성을 강제한 느낌?*  
+* *그러면, 뭔가 Croped CNN? input으로 만든 weight? non-local 개념?*  
 > "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale," ICLR 2021.
 
 -------------------------------------------------------
@@ -30,6 +30,22 @@
 * *rel-Attn 성능확인 빈약해보임.. wieght 늘렸으니까 당연 더 잘대겠지*  
 * *조합방법? search space?가 약해보임. 근거도 실험밖에 없는 것두*  
 > "CoAtNet: Marrying Convolution and Attention for All Data Sizes," Arxiv 2021.  
+
+-------------------------------------------------------
+<br/>
+
+## Deit
+![Deit](./images/Deit.png)  
+* ViT + Knowledge Distillation + Bag of tricks  
+  * Teacher token을 만들어서 RegNet을 teacher model로 KD 수행.  
+  * CNN 모델들에서 사용하는 data argumentation 이라던지, 학습 기법들 적용.  
+* inference 때 class token과 teacher token을 더하거나 concat해서 사용.  
+* ViT처럼 big data로 pre-training 없어도 잘나옴.
+
+
+* *왜 KD과정이 마지막 teacher token에서만 하지? 중간 중간 하면 안대나?*
+* *CNN에서 쓰던거 더했더니 CNN처럼 Inductive biases가 생긴다? 이게 맞나?*  
+> "https://arxiv.org/pdf/2012.12877.pdf," Arxiv 2021.  
 
 -------------------------------------------------------
 <br/>
