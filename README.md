@@ -11,6 +11,7 @@ So, This is written so that it is easy for me to see like scribbles.
 ## Classification
 * **ViT**
 * **CoAtNet**
+* **DeiT**
 
 -------------------------------------------------------
 <br/>
@@ -35,6 +36,15 @@ So, This is written so that it is easy for me to see like scribbles.
 
 -------------------------------------------------------
 <br/>
+
+## Tracking
+* *Kalman filtering*
+* *Sort*
+* *GMPHD-OGM*
+
+-------------------------------------------------------
+<br/>
+
 
 ## ETC
 * **Long Tail Distribution**
