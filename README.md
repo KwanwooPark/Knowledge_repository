@@ -22,6 +22,7 @@ So, This is written so that it is easy for me to see like scribbles.
 * **CasecadeRCNN**
 * **SSD**
 * **Swin Transformer**
+* **YOLO**
 * *Centernet*
 * *DETR*
 
@@ -38,9 +39,19 @@ So, This is written so that it is easy for me to see like scribbles.
 <br/>
 
 ## Tracking
-* *Kalman filtering*
-* *Sort*
-* *GMPHD-OGM*
+* **Kalman filtering**
+* **Sort**
+* **GMPHD-OGM**
+
+-------------------------------------------------------
+<br/>
+
+## Bag
+* *data argumentation*
+* **label smoothing**
+* *weight initialize*
+* *regularization*
+* *Siamese Networks*
 
 -------------------------------------------------------
 <br/>
@@ -53,3 +64,10 @@ So, This is written so that it is easy for me to see like scribbles.
 
 -------------------------------------------------------
 <br/>
+
+## TODO
+
+
+-------------------------------------------------------
+<br/>
+

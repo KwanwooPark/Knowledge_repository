@@ -29,6 +29,24 @@
 -------------------------------------------------------
 <br/>
 
+## YOLO
+* V1: 7*7 grid로 구성. 각 grid는 박스정보(xyhwp)*2 + class정보(20)로 구성. no-anchor, 1stage.
+* V2: V1 + anchor + skip concat + DarkNet19.  
+  * 7*7 -> 13*13, anchor 추가, anchor 정보를 dataset 통해 설정.
+  * 작은 객체 잘찾기 위해서 상위 resolution의 featrue를 concat해서 사용.  
+  * VGG19보다 좋은 Darknet 19 제안 (1*1 conv 섞어 사용)  
+* V3: V2 + DarkNet53 + Loss 변화 + FPN.  
+  * DarkNet19에 skip connection 추가해서 53 개발.  
+  * FPN 구조 추가, Box loss direct로 변화.
+  * V2의 offset을 MSE로 변경, grid내 다수 class를 고려하여 BCE의 연속으로 Multiclass 해석.  
+* V4: V3 + SCPDarkNet + BoF + BoS
+
+> "SSD: Single Shot MultiBox Detector," ECCV 2016.  
+
+-------------------------------------------------------
+<br/>
+
+
 ## Swin Transformer
 ![SwinTr](./images/SwinTr.png)  
 * Transformer의 OD version.  
