@@ -12,6 +12,7 @@ So, This is written so that it is easy for me to see like scribbles.
 * **ViT**
 * **CoAtNet**
 * **DeiT**
+* *TSM*
 
 -------------------------------------------------------
 <br/>
@@ -47,11 +48,12 @@ So, This is written so that it is easy for me to see like scribbles.
 <br/>
 
 ## Bag
-* *data argumentation*
 * **label smoothing**
+* **Quantization**
+* *data argumentation*
 * *weight initialize*
 * *regularization*
-* *Siamese Networks*
+* *homographic adaptation*
 
 -------------------------------------------------------
 <br/>
@@ -65,9 +67,4 @@ So, This is written so that it is easy for me to see like scribbles.
 -------------------------------------------------------
 <br/>
 
-## TODO
-
-
--------------------------------------------------------
-<br/>
 
