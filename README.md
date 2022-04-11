@@ -50,6 +50,7 @@ So, This is written so that it is easy for me to see like scribbles.
 ## Bag
 * **label smoothing**
 * **Quantization**
+* **Quantization**
 * *data argumentation*
 * *weight initialize*
 * *regularization*

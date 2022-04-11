@@ -37,3 +37,19 @@
 
 -------------------------------------------------------
 <br/>
+
+##  Multi Task Learning
+* hard sharing
+  * universal feature extractor
+  * task-free한 featrue extractor를 거친 후 각 task 별 module을 사용.
+  * low 및 mid level의 feature가 task 별로 동일하게 사용.
+  * task가 유사할 수 록 성능이 높지만, 대게 soft sharing이 성능 좋음.
+  * inference 시 여러 task를 수행하더라도 한번의 backbone만 수행. (선택적 task 가능)
+* soft sharing
+  * universal parametric family
+  * low부터 high까지 task specific feature 출력 가능.
+  * inference시 선택적 task 불가.
+* 근래 들어 이쪽 연구가 많이 이루어지지 않는 듯... application은 있다만 목표가 MTL은 잘못봄.
+
+-------------------------------------------------------
+<br/>
