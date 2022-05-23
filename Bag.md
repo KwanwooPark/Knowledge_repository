@@ -35,8 +35,7 @@
   * PTQ로 찾은 minima는 변동성이 커 조금만 변해도 loss 확 오름. QAT는 local minima라 안그럼.
   * QAT는 pretrain model을 불러서 layer 앞뒤로 quant, dequant 넣어서 학습하는 방식. (fake graph)
 
--------------------------------------------------------
-<br/>
+ 
 
 ##  Multi Task Learning
 * hard sharing

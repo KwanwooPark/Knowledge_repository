@@ -33,3 +33,16 @@
 
 -------------------------------------------------------
 <br/>
+
+## PolyLoss
+* CrossEntropy 혹은 Focal loss를 테일러 급수로 표현.
+* 그럼, c * (1-p) 의 거듭제곱 합으로 표현 가능. 즉, label과 pred의 distance의 거듭제곱과 그 가중치.
+* 이때 이 가중치 (coefficient)의 optimal 값을 찾는 것이 목표.
+* 첫번째 term에만 coefficient 두는게 간단하며, 효과적. 이 coefficient는 실험적으로 찾는 듯.
+* DropLoss라고 테일러 급수 뒤에 term들을 버리는 loss도 있음. (근데 이 논문은 뒤에 텀들도 중요하다고 함)
+
+> POLYLOSS: A POLYNOMIAL EXPANSION PERSPECTIVE OF CLASSIFICATION LOSS FUNCTIONS, ICLR 2022.  
+
+-------------------------------------------------------
+<br/>
+
